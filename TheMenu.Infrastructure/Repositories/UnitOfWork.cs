@@ -9,7 +9,7 @@ using TheMenu.Infrastructure.Data;
 
 namespace TheMenu.Infrastructure.Repositories
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly IIngredientRepository? _ingredientRepository;
         private readonly IRecipeRepository? _recipeRepository;
@@ -22,9 +22,10 @@ namespace TheMenu.Infrastructure.Repositories
         public IRecipeRepository recipeRepository => (_recipeRepository == null ? new RecipeRepository(_dbContext) : _recipeRepository);
         public IIngredientRepository ingredientRepository => (_ingredientRepository == null ? new IngredientRepository(_dbContext) : _ingredientRepository);
 
-        public int SaveChanges() {
+        public int SaveChanges()
+        {
             return _dbContext.SaveChanges();
         }
-    
+
     }
 }

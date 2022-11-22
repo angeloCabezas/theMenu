@@ -1,0 +1,12 @@
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\bin\Debug\net6.0\TheMenu.Domain.deps.json
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\bin\Debug\net6.0\TheMenu.Domain.dll
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\bin\Debug\net6.0\TheMenu.Domain.pdb
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\TheMenu.Domain.csproj.AssemblyReference.cache
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\TheMenu.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\TheMenu.Domain.AssemblyInfoInputs.cache
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\TheMenu.Domain.AssemblyInfo.cs
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\TheMenu.Domain.csproj.CoreCompileInputs.cache
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\TheMenu.Domain.dll
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\refint\TheMenu.Domain.dll
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\TheMenu.Domain.pdb
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Domain\obj\Debug\net6.0\ref\TheMenu.Domain.dll

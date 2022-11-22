@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Recipe\Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheMenu.Domain\TheMenu.Domain.csproj" />
+    <ProjectReference Include="..\TheMenu.Infrastructure\TheMenu.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

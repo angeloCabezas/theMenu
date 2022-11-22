@@ -1,0 +1,17 @@
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\bin\Debug\net6.0\TheMenu.Infrastructure.deps.json
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\bin\Debug\net6.0\TheMenu.Infrastructure.runtimeconfig.json
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\bin\Debug\net6.0\TheMenu.Infrastructure.dll
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\bin\Debug\net6.0\TheMenu.Infrastructure.pdb
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\bin\Debug\net6.0\TheMenu.Domain.dll
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\bin\Debug\net6.0\TheMenu.Domain.pdb
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.csproj.AssemblyReference.cache
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.AssemblyInfoInputs.cache
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.AssemblyInfo.cs
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.csproj.CoreCompileInputs.cache
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.csproj.CopyComplete
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.dll
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\refint\TheMenu.Infrastructure.dll
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.pdb
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\TheMenu.Infrastructure.genruntimeconfig.cache
+C:\D\VisualStudio\ProjectTheMenu\themenu\TheMenu.Infrastructure\obj\Debug\net6.0\ref\TheMenu.Infrastructure.dll
