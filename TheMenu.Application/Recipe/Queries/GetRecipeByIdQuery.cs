@@ -14,18 +14,22 @@ namespace TheMenu.Application.Recipe.Queries
     {
     }
 
-    public class GetRecipeByIdQueryHandler : IRequestHandler<GetRecipeByIdQuery, RecipeDTOQuery>
+    internal class GetRecipeByIdQueryHandler : IRequestHandler<GetRecipeByIdQuery, RecipeDTOQuery>
     {
         private readonly IUnitOfWork _dbcontext;
         public GetRecipeByIdQueryHandler(IUnitOfWork dbcontext)
         {
             _dbcontext = dbcontext;
         }
-        public Task<RecipeDTOQuery> Handle(GetRecipeByIdQuery request, CancellationToken cancellationToken)
+        public async Task<RecipeDTOQuery> Handle(GetRecipeByIdQuery request, CancellationToken cancellationToken)
         {
-            var result = _dbcontext.recipeRepository.GetRecipe(request.Id);
-            var dtoResult = new RecipeDTOQuery(result);
-            return Task.FromResult(dtoResult);
+            var result = await _dbcontext.RecipeRepository.GetRecipe(request.Id);
+
+            if (result != null) {
+                return new RecipeDTOQuery(result);
+            }
+
+            return null;
         }
     }
 }

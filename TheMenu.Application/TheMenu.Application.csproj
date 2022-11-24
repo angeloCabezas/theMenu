@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Recipe\Commands\" />
+    <Compile Remove="Recipe\Commands\**" />
+    <EmbeddedResource Remove="Recipe\Commands\**" />
+    <None Remove="Recipe\Commands\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +19,10 @@
   <ItemGroup>
     <ProjectReference Include="..\TheMenu.Domain\TheMenu.Domain.csproj" />
     <ProjectReference Include="..\TheMenu.Infrastructure\TheMenu.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Category\Queries\" />
   </ItemGroup>
 
 </Project>

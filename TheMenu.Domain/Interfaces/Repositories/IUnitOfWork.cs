@@ -2,8 +2,9 @@
 {
     public interface IUnitOfWork
     {
-        IIngredientRepository ingredientRepository { get; }
-        IRecipeRepository recipeRepository { get; }
+        IIngredientRepository IngredientRepository { get; }
+        IRecipeRepository RecipeRepository { get; }
+        ICategoryRepository CategoryRepository { get; }
         int SaveChanges();
     }
 }

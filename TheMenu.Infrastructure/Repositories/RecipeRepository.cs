@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,14 +17,18 @@ namespace TheMenu.Infrastructure.Repositories
         {
             _context = context;
         }
-        public IEnumerable<Recipe> GetAllRecipes()
+        public async Task<IEnumerable<Recipe>> GetAllRecipes()
         {
-            return _context.Recipes.ToList();
+            return await _context.Recipes.ToListAsync();
         }
-        
-        public Recipe GetRecipe(Guid Id)
+        public async Task<IEnumerable<Recipe>> GetAllRecipesByCategory(Guid CategoryId)
         {
-            return _context.Recipes.Where(x => x.Id == Id).FirstOrDefault();
+            return await _context.Recipes.ToListAsync();
+        }
+
+        public async Task<Recipe> GetRecipe(Guid Id)
+        {
+            return await _context.Recipes.Where(x => x.Id == Id).FirstOrDefaultAsync();
         }
     }
 }

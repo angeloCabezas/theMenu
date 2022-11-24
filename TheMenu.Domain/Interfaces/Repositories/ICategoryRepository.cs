@@ -7,10 +7,8 @@ using TheMenu.Domain.Entities;
 
 namespace TheMenu.Domain.Interfaces.Repositories
 {
-    public interface IRecipeRepository
+    public interface ICategoryRepository
     {
-        Task<Recipe> GetRecipe(Guid Id);
-        Task<IEnumerable<Recipe>> GetAllRecipes();
-        Task<IEnumerable<Recipe>> GetAllRecipesByCategory(Guid CategoryId);
+        Task<IEnumerable<Category>> GetRecipesByCategory(Guid id);
     }
 }
