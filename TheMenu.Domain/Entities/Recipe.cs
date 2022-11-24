@@ -13,6 +13,7 @@ namespace TheMenu.Domain.Entities
         public string PossibleOrigen { get; set; }
         public string Comment { get; set; }
         public string Preparation { get; set; }
+        public IEnumerable<CategoryRecipe> CategoryRecipes { get; set; }
         public IEnumerable<Ingredient> Ingredients { get; set; }
     }
 }
